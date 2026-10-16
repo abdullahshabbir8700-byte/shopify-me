@@ -57,13 +57,13 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/watches",
-            "button_style_secondary": false,
+            "link": "",
+            "button_style_secondary": true,
             "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "box_align": "bottom-left",
+            "text_alignment": "right",
+            "text_alignment_mobile": "right",
+            "color_scheme": "scheme-3"
           }
         }
       },

@@ -109,7 +109,7 @@
     "brand_headline": "",
     "brand_description": "<p></p>",
     "brand_image": "{{ shop.brand.cover_image }}",
-    "brand_image_width": 100,
+    "brand_image_width": 200,
     "social_facebook_link": "https://www.facebook.com/share/1bsYY139u2/",
     "social_instagram_link": "https://instagram.com/gadgetverse152?psln=MWMxM2szcW14OG12cw%3D%3D",
     "social_youtube_link": "",

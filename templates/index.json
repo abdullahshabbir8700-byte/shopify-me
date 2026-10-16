@@ -183,6 +183,12 @@
             "collection": "watches"
           }
         },
+        "featured_collection_Yzamgr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "colling-fans"
+          }
+        },
         "featured_collection_nUimtU": {
           "type": "featured_collection",
           "settings": {
@@ -200,14 +206,36 @@
           "settings": {
             "collection": "data-cables"
           }
+        },
+        "featured_collection_NHEPKC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mobile-stands"
+          }
+        },
+        "featured_collection_LhHENB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "converters"
+          }
+        },
+        "featured_collection_PWt9iD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mouse"
+          }
         }
       },
       "block_order": [
         "featured_collection_BtYQQ6",
         "featured_collection_UPXYYM",
+        "featured_collection_Yzamgr",
         "featured_collection_nUimtU",
         "featured_collection_BTwYTf",
-        "featured_collection_pT6kBg"
+        "featured_collection_pT6kBg",
+        "featured_collection_NHEPKC",
+        "featured_collection_LhHENB",
+        "featured_collection_PWt9iD"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
@@ -218,7 +246,7 @@
         "color_scheme": "scheme-3",
         "show_view_all": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 36
       }

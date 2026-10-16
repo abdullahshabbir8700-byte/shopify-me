@@ -144,7 +144,7 @@
             "button_label": "Explor",
             "link": "shopify://collections/headphone",
             "button_style_secondary": true,
-            "show_text_box": true,
+            "show_text_box": false,
             "box_align": "top-left",
             "text_alignment": "left",
             "text_alignment_mobile": "left",

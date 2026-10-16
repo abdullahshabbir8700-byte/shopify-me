@@ -172,7 +172,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<!-- ADSTERra / ADSENSE: TOP AD -->\n<div class=\"ad\">ADVERTISEMENT - PLACE YOUR AD CODE HERE</div>",
+        "custom_liquid": "<!-- ADSTERra / ADSENSE: TOP AD -->\n<div class=\"ad\"><script>\n  atOptions = {\n    'key' : '7780a8f97d73b7c588052b94d2223345',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/7780a8f97d73b7c588052b94d2223345\"></script></div>",
         "color_scheme": "scheme-3",
         "padding_top": 100,
         "padding_bottom": 100

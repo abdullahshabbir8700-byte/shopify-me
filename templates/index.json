@@ -143,11 +143,11 @@
             "subheading": "",
             "button_label": "Explor",
             "link": "shopify://collections/headphone",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "show_text_box": true,
-            "box_align": "bottom-left",
-            "text_alignment": "right",
-            "text_alignment_mobile": "center",
+            "box_align": "top-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
             "color_scheme": "scheme-3"
           }
         }

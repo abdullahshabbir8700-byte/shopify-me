@@ -89,7 +89,7 @@
       "settings": {
         "collection": "all-products",
         "products_to_show": 10,
-        "title": "Featured products",
+        "title": "Top Sellers",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

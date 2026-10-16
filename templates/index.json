@@ -168,6 +168,16 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_liquid_Fn89ih": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- ADSTERra / ADSENSE: TOP AD -->\n<div class=\"ad\">ADVERTISEMENT - PLACE YOUR AD CODE HERE</div>",
+        "color_scheme": "scheme-3",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "collection_list_xgVrMG": {
       "type": "collection-list",
       "blocks": {
@@ -256,6 +266,7 @@
     "slideshow_AFPDcB",
     "featured_collection",
     "slideshow_ynwYrP",
+    "custom_liquid_Fn89ih",
     "collection_list_xgVrMG"
   ]
 }

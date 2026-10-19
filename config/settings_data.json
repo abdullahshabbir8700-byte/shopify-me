@@ -170,7 +170,7 @@
       "scheme-3": {
         "settings": {
           "background": "#242833",
-          "background_gradient": "",
+          "background_gradient": "linear-gradient(180deg, rgba(36, 40, 51, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)",
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#000000",

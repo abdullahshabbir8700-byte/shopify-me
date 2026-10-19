@@ -84,17 +84,14 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "custom_liquid_QUU9Xp": {
+    "custom_liquid_BaFeUb": {
       "type": "custom-liquid",
-      "custom_css": [
-        ".store-benefits {background: linear-gradient(135deg, #242833 0%, #171a22 100%); border-radius: 20px; padding: 25px;}"
-      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n  .store-benefits {\n    max-width: 1200px;\n    margin: 30px auto;\n    padding: 15px;\n    font-family: Arial, sans-serif;\n    color: #183c52;\n  }\n\n  .store-benefits-grid {\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 22px;\n  }\n\n  .store-benefit-card {\n    background: #ffffff;\n    border-radius: 22px;\n    padding: 34px 18px;\n    min-height: 205px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    box-shadow: 0 5px 30px rgba(20, 45, 60, 0.055);\n    box-sizing: border-box;\n    transition: transform 0.25s ease,\n                box-shadow 0.25s ease;\n  }\n\n  .store-benefit-card:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 10px 32px rgba(20, 45, 60, 0.10);\n  }\n\n  .store-benefit-icon {\n    width: 66px;\n    height: 66px;\n    margin-bottom: 20px;\n    color: #164765;\n  }\n\n  .store-benefit-icon svg {\n    display: block;\n    width: 100%;\n    height: 100%;\n    fill: none;\n    stroke: currentColor;\n    stroke-width: 2.4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .store-benefit-card h3 {\n    font-size: 23px;\n    line-height: 1.3;\n    font-weight: 700;\n    color: #172d3a;\n    margin: 0 0 13px;\n  }\n\n  .store-benefit-card p {\n    font-size: 17px;\n    line-height: 1.6;\n    color: #294f66;\n    margin: 0;\n  }\n\n  @media screen and (max-width: 600px) {\n    .store-benefits {\n      padding: 10px;\n      margin: 15px auto;\n    }\n\n    .store-benefits-grid {\n      gap: 12px;\n    }\n\n    .store-benefit-card {\n      min-height: 175px;\n      padding: 22px 10px;\n      border-radius: 15px;\n    }\n\n    .store-benefit-icon {\n      width: 48px;\n      height: 48px;\n      margin-bottom: 14px;\n    }\n\n    .store-benefit-card h3 {\n      font-size: 16px;\n      margin-bottom: 9px;\n    }\n\n    .store-benefit-card p {\n      font-size: 13px;\n      line-height: 1.5;\n    }\n  }\n</style>\n\n<section class=\"store-benefits\">\n  <div class=\"store-benefits-grid\">\n\n    <!-- Box 1: Delivery -->\n    <div class=\"store-benefit-card\">\n      <div class=\"store-benefit-icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"M8 25 32 13l24 12-24 13L8 25Z\"/>\n          <path d=\"M8 25v25l24 12 24-12V25\"/>\n          <path d=\"M32 38v24\"/>\n          <path d=\"m20 19 24 13\"/>\n          <circle cx=\"32\" cy=\"9\" r=\"7\"/>\n          <path d=\"m29 9 2 2 4-5\"/>\n        </svg>\n      </div>\n      <h3>Express Delivery</h3>\n      <p>All Over Pakistan</p>\n    </div>\n\n    <!-- Box 2: Customer Satisfaction -->\n    <div class=\"store-benefit-card\">\n      <div class=\"store-benefit-icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"m13 8 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2 5-10Z\"\n            transform=\"translate(8 4) scale(.8)\"/>\n          <path d=\"m32 3 4 8 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1 4-8Z\"/>\n          <path d=\"m50 8 4 8 8 1-6 6 1 8-7-4-7 4 1-8-6-6 8-1 4-8Z\"\n            transform=\"translate(-2 2) scale(.85)\"/>\n          <path d=\"M9 35h46a4 4 0 0 1 4 4v13a4 4 0 0 1-4 4H35l-7 6-7-6H9a4 4 0 0 1-4-4V39a4 4 0 0 1 4-4Z\"/>\n          <path d=\"M15 43h34M15 49h34\"/>\n        </svg>\n      </div>\n      <h3>Positive Feedback</h3>\n      <p>99% Customer Satisfaction Rate</p>\n    </div>\n\n    <!-- Box 3: Returns -->\n    <div class=\"store-benefit-card\">\n      <div class=\"store-benefit-icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"M18 15H8v-10\"/>\n          <path d=\"M8 15C15 5 27 2 38 6\"/>\n          <path d=\"M46 12a25 25 0 1 1-34 34\"/>\n          <path d=\"M12 46v-10M12 46h10\"/>\n        </svg>\n      </div>\n      <h3>Easy Returns &amp; Refunds</h3>\n      <p>T&amp;Cs Apply</p>\n    </div>\n\n    <!-- Box 4: Savings -->\n    <div class=\"store-benefit-card\">\n      <div class=\"store-benefit-icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"M32 5v22\"/>\n          <path d=\"m23 18 9 10 9-10\"/>\n          <path d=\"M12 34h26a7 7 0 0 1 0 14H12a7 7 0 0 1 0-14Z\"/>\n          <path d=\"M12 43h22a7 7 0 0 1 0 14H12a7 7 0 0 1 0-14Z\"/>\n          <circle cx=\"45\" cy=\"43\" r=\"14\"/>\n          <path d=\"M48 36h-5a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-6M45 33v18\"/>\n        </svg>\n      </div>\n      <h3>Cost Saving</h3>\n      <p>Excellent Prices &amp; Sales</p>\n    </div>\n\n  </div>\n</section>",
         "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -287,7 +284,7 @@
   },
   "order": [
     "slideshow_AFPDcB",
-    "custom_liquid_QUU9Xp",
+    "custom_liquid_BaFeUb",
     "featured_collection",
     "slideshow_ynwYrP",
     "custom_liquid_Fn89ih",

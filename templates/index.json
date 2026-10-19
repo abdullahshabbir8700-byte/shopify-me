@@ -188,87 +188,14 @@
         "padding_bottom": 100
       }
     },
-    "collection_list_xgVrMG": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_BtYQQ6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wallet"
-          }
-        },
-        "featured_collection_UPXYYM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "watches"
-          }
-        },
-        "featured_collection_Yzamgr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "colling-fans"
-          }
-        },
-        "featured_collection_nUimtU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "air-buds"
-          }
-        },
-        "featured_collection_BTwYTf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "charger"
-          }
-        },
-        "featured_collection_pT6kBg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "data-cables"
-          }
-        },
-        "featured_collection_NHEPKC": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mobile-stands"
-          }
-        },
-        "featured_collection_LhHENB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "converters"
-          }
-        },
-        "featured_collection_PWt9iD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mouse"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_BtYQQ6",
-        "featured_collection_UPXYYM",
-        "featured_collection_Yzamgr",
-        "featured_collection_nUimtU",
-        "featured_collection_BTwYTf",
-        "featured_collection_pT6kBg",
-        "featured_collection_NHEPKC",
-        "featured_collection_LhHENB",
-        "featured_collection_PWt9iD"
-      ],
-      "name": "t:sections.collection-list.presets.name",
+    "custom_liquid_86z6Nj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-3",
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "custom_liquid": "<section class=\"customer-reviews\">\n  <div class=\"reviews-heading\">\n    <span class=\"reviews-tag\">CUSTOMER FEEDBACK</span>\n    <h2>What Our Customers Say</h2>\n    <div class=\"reviews-rating\">\n      <span class=\"stars\">★★★★★</span>\n      <span>Customer Reviews</span>\n    </div>\n  </div>\n\n  <div class=\"reviews-list\">\n\n    <div class=\"review-card\">\n      <div class=\"review-stars\">★★★★★</div>\n      <h3>Great Product Quality!</h3>\n      <p>The product looks amazing and the quality is really good. Very happy with my purchase.</p>\n      <div class=\"review-customer\">\n        <div class=\"review-avatar\">A</div>\n        <div>\n          <strong>Ahmed</strong>\n          <small>Verified Customer</small>\n        </div>\n        <span class=\"verified\">✓</span>\n      </div>\n    </div>\n\n    <div class=\"review-card\">\n      <div class=\"review-stars\">★★★★★</div>\n      <h3>Excellent Experience</h3>\n      <p>Really nice product and a clean shopping experience. Would recommend it to others.</p>\n      <div class=\"review-customer\">\n        <div class=\"review-avatar\">F</div>\n        <div>\n          <strong>Fatima</strong>\n          <small>Verified Customer</small>\n        </div>\n        <span class=\"verified\">✓</span>\n      </div>\n    </div>\n\n    <div class=\"review-card\">\n      <div class=\"review-stars\">★★★★★</div>\n      <h3>Worth Buying</h3>\n      <p>Good-looking product and easy to use. I am satisfied with my order.</p>\n      <div class=\"review-customer\">\n        <div class=\"review-avatar\">U</div>\n        <div>\n          <strong>Usman</strong>\n          <small>Verified Customer</small>\n        </div>\n        <span class=\"verified\">✓</span>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n.customer-reviews {\n  background: #f7f7fb;\n  padding: 40px 16px;\n  color: #20202a;\n  overflow: hidden;\n}\n\n.reviews-heading {\n  text-align: center;\n  margin-bottom: 26px;\n}\n\n.reviews-tag {\n  color: #6550b8;\n  font-size: 11px;\n  letter-spacing: 2px;\n  font-weight: 700;\n}\n\n.reviews-heading h2 {\n  font-size: 26px;\n  margin: 10px 0;\n  line-height: 1.25;\n}\n\n.reviews-rating {\n  font-size: 13px;\n  color: #666;\n}\n\n.stars,\n.review-stars {\n  color: #f5a623;\n  letter-spacing: 2px;\n}\n\n.reviews-list {\n  display: flex;\n  gap: 14px;\n  overflow-x: auto;\n  scroll-snap-type: x mandatory;\n  scrollbar-width: none;\n  padding-bottom: 8px;\n}\n\n.reviews-list::-webkit-scrollbar {\n  display: none;\n}\n\n.review-card {\n  flex: 0 0 85%;\n  max-width: 340px;\n  box-sizing: border-box;\n  background: #fff;\n  border: 1px solid #e9e7f0;\n  border-radius: 16px;\n  padding: 22px;\n  scroll-snap-align: center;\n  box-shadow: 0 5px 18px rgba(25, 20, 50, .05);\n}\n\n.review-stars {\n  font-size: 17px;\n}\n\n.review-card h3 {\n  font-size: 17px;\n  margin: 13px 0 8px;\n}\n\n.review-card p {\n  font-size: 14px;\n  line-height: 1.7;\n  color: #666;\n  min-height: 72px;\n}\n\n.review-customer {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  border-top: 1px solid #eee;\n  padding-top: 15px;\n  margin-top: 15px;\n}\n\n.review-avatar {\n  width: 38px;\n  height: 38px;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n  background: #e9e3ff;\n  color: #5d43a6;\n  font-weight: 700;\n}\n\n.review-customer strong,\n.review-customer small {\n  display: block;\n}\n\n.review-customer strong {\n  font-size: 13px;\n}\n\n.review-customer small {\n  color: #888;\n  font-size: 11px;\n  margin-top: 3px;\n}\n\n.verified {\n  margin-left: auto;\n  background: #218b58;\n  color: white;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n  font-size: 12px;\n}\n\n@media (min-width: 750px) {\n  .reviews-list {\n    justify-content: center;\n    flex-wrap: wrap;\n  }\n\n  .review-card {\n    flex: 1 1 250px;\n  }\n}\n</style>",
+        "color_scheme": "scheme-1",
         "padding_top": 40,
-        "padding_bottom": 36
+        "padding_bottom": 52
       }
     }
   },
@@ -278,6 +205,6 @@
     "featured_collection",
     "slideshow_ynwYrP",
     "custom_liquid_XdhQ8a",
-    "collection_list_xgVrMG"
+    "custom_liquid_86z6Nj"
   ]
 }
